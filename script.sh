@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "iniciando o programa..."
 while true; do
     echo "1 - ADICIONAR"
     echo "2 - LISTAR"
@@ -37,7 +37,7 @@ while true; do
             break ;;
     esac
 done
-
+echo "finalizando o programa..."
 # logs do programa
 echo "erros ao passar algum dado" >> error.log
 
