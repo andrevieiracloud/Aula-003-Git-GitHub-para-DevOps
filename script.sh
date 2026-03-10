@@ -37,7 +37,7 @@ while true; do
             break ;;
     esac
 done
-
+echo "finalizando o programa..."
 # logs do programa
 echo "erros ao passar algum dado" >> error.log
 
