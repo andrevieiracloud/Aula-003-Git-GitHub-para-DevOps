@@ -42,4 +42,9 @@ done
 echo "erros ao passar algum dado" >> error.log
 
 
+
+echo "fazendo backup dos dados..."
 cp -R ./meus_produtos.txt ./backup/meus_produtos-$(date +%F).txt
+
+
+echo "backup realizado com sucesso.."
